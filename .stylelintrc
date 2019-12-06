@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-standard",
+  "ignoreFiles": "resources/assets/css/vendor/*",
+  "rules": {
+      "color-hex-case": "upper",
+      "indentation": [2],
+      "at-rule-empty-line-before": null,
+      "block-no-empty": true,
+      "declaration-empty-line-before": "never",
+      "number-leading-zero": null,
+      "selector-pseudo-element-colon-notation": "single",
+      "block-opening-brace-newline-after": "always",
+      "at-rule-semicolon-newline-after": "always",
+      }
+}

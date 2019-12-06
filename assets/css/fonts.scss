@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Poly');
+@import "node_modules/spectre.css/src/variables";
+
+// Spectre base fonts
+$base-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Roboto Slab';
+$mono-font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace;
+$fallback-font-family: 'Georgia', serif;
+
+// Custom fonts
+@font-face {
+  font-family: 'ManropeRegular', arial, sans-serif;
+  src:
+    url('../fonts/Manrope-Regular.woff2') format('woff2'),
+    url('../fonts/Manrope-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ManropeMedium';
+  src:
+    url('../fonts/Manrope-Medium.woff2') format('woff2'),
+    url('../fonts/Manrope-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ManropeBold';
+  src:
+    url('../fonts/Manrope-Bold.woff2') format('woff2'),
+    url('../fonts/Manrope-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
