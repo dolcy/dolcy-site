@@ -1,0 +1,222 @@
+@import "node_modules/spectre.css/src/spectre";
+
+// main colors
+$primary-color: #EFDAB9;
+$secondary-color: #E8CD84;
+$dark-color: #343436;
+$gray-color: #5B4C4B;
+$gray-color-light: #F5F5F5;
+$highlight-color: #70ABA8;
+$link-color: $secondary-color;
+$body-font-color: $primary-color;
+$body-bg: $dark-color;
+
+// control colors
+$success-color: #5B89AD;
+$warning-color: #C13F21;
+$error-color: #FF6347;
+
+// type
+h1,
+h2 {
+  font-family: "ManropeBold", "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-family: 'ManropeRegular', "Helvetica Neue", sans-serif;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+// spectre layout mods
+body {
+  background-color: $dark-color;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='199' viewBox='0 0 100 199'%3E%3Cg fill='%23c13f21' fill-opacity='0.4'%3E%3Cpath d='M0 199V0h1v1.99L100 199h-1.12L1 4.22V199H0zM100 2h-.12l-1-2H100v2z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.container {
+  padding: 0;
+}
+
+.top-header-box {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  padding-top: 0;
+}
+
+.hero-body-title {
+  background: $dark-color;
+  height: 5.6em;
+  padding: 1.4em;
+  color: $error-color;
+}
+
+.footer {
+  background: $dark-color;
+  padding: 3rem 3rem;
+}
+
+.footer-logo {
+  padding: 0;
+}
+
+.footer p {
+  margin: 0;
+  color: #FFF;
+  font-size: .8rem;
+}
+
+.footer a {
+  color: $error-color;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  color: $primary-color;
+}
+
+// form and buttons
+.btn.btn-lg {
+  font-size: 1.2rem;
+  height: 3rem;
+  width: 100%;
+  padding: 0.35rem 0.6rem;
+}
+
+.btn.btn-primary {
+  background: $dark-color;
+  border-color: $dark-color;
+  color: #FFF;
+}
+
+.btn.btn-primary:focus,
+.btn.btn-primary:hover {
+  background: $error-color;
+  border-color: $error-color;
+  color: #FFF;
+}
+
+.btn.btn-secondary {
+  background: $dark-color;
+  border-color: $error-color;
+  color: #FFF;
+}
+
+.btn.btn-secondary:focus,
+.btn.btn-secondary:hover {
+  background: $error-color;
+  border-color: $error-color;
+  color: #FFF;
+}
+
+.btn.btn-sm {
+  padding: 0.08rem 0.3rem;
+}
+
+.required {
+  color: $error-color;
+  margin: 0 2px;
+}
+
+// element mods
+svg {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+// color palette - background, text
+.bg-kaki {
+  background: $primary-color;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-dark {
+  color: $dark-color;
+}
+
+.text-light {
+  color: $gray-color-light;
+}
+
+.bg-darkslate,
+.bg-primary {
+  background: $dark-color;
+}
+
+.bg-dimgray,
+.bg-secondary {
+  background: $gray-color;
+}
+
+.bg-steelblue,
+.bg-success {
+  background: $success-color;
+}
+
+.bg-rust,
+.bg-warning {
+  background: $warning-color;
+}
+
+.bg-tomato,
+.bg-error {
+  background: $error-color;
+}
+
+.bg-cadetblue, {
+  background: $highlight-color;
+}
+
+// links and buttons
+a {
+  color: $highlight-color;
+}
+
+// positions extended
+.px-3 {
+  padding-left: 0.7rem !important;
+  padding-right: 0.7rem !important;
+}
+
+.px-4 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.px-10 {
+  padding-left: 6rem !important;
+  padding-right: 6rem !important;
+}
+
+.py-3 {
+  padding-bottom: 0.7rem !important;
+  padding-top: 0.7rem !important;
+}
+
+.py-4 {
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+}
+
+.py-10 {
+  padding-bottom: 6rem !important;
+  padding-top: 6rem !important;
+}
