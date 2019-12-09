@@ -159,7 +159,7 @@ module.exports = {
     '@nuxtjs/google-analytics'
   ],
   googleAnalytics: {
-    id: 'UA-148375929-1'
+    id: process.env.GA_ID
   },
   http: {
     baseURL: 'http://localhost:3000/',
